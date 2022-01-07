@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby TailwindCSS Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter with TailwindCSS and common dev tools. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@kosvrouvas`,
+    title: `Kartik Puri`,
+    description: `I am Fullstack developer love talking about Development, Web3, Crypto and building products`,
+    author: `@chopcoding`,
   },
   flags: {
     THE_FLAG: false
