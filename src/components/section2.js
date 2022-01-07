@@ -127,7 +127,7 @@ function Section2({ siteTitle }) {
                                 </p>
                                 <a href="#" class="block mt-2">
                                     <p class="text-xl font-semibold text-gray-900">
-                                        Head and Tails
+                                        Heads and Tails
                                     </p>
                                     <p class="mt-3 text-base text-gray-500">
                                        This is my first project completely written on solidity. It's a betting game where player can bet on the outcome of head and tails using crypto currencies, this game is still in development and yet to be released on mainnet
