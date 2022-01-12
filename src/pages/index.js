@@ -10,6 +10,7 @@ import Section2 from '../components/section2'
 import linkedin from '../images/linkedin.png'
 import twitter from '../images/twitter.png'
 import github from '../images/github.png'
+import hashnode from '../images/hashnode.png'
 import { graphql } from "gatsby"
 
 const IndexPage = ({data}) => (
@@ -42,13 +43,16 @@ const IndexPage = ({data}) => (
               <div class="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                 <div class="flex w-40 flex-wrap items-start justify-between">
                   <div class="flex justify-center px-1">
-                    <a href="https://www.linkedin.com/in/kartikchop/"><img class="h-6 sm:h-6" src={linkedin} alt="LinkedIn"/></a>
+                    <a href="https://www.linkedin.com/in/kartikchop/" target="_blank"><img class="h-6 sm:h-6" src={linkedin} alt="LinkedIn"/></a>
                   </div>
                   <div class="flex justify-center px-1">
-                  <a href="https://twitter.com/chopcoding"><img class="h-6 sm:h-6" src={twitter} alt="twitter"/></a>
+                  <a href="https://twitter.com/chopcoding" target="_blank"><img class="h-6 sm:h-6" src={twitter} alt="twitter"/></a>
                   </div>
                   <div class="flex justify-center px-1">
-                  <a  href="https://github.com/kartikpuri95"> <img class="h-6 sm:h-6" src={github} alt="github"/></a>
+                  <a  href="https://github.com/kartikpuri95" target="_blank"> <img class="h-6 sm:h-6" src={github} alt="github"/></a>
+                  </div>
+                  <div class="flex justify-center px-1">
+                  <a  href="https://chopcoding.com" target="_blank"> <img class="h-6 sm:h-6" src={hashnode} alt="hashnode"/></a>
                   </div>
                 </div>
               </div>
