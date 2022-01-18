@@ -12,6 +12,7 @@ import twitter from '../images/twitter.png'
 import github from '../images/github.png'
 import hashnode from '../images/hashnode.png'
 import { graphql } from "gatsby"
+import Section3 from "../components/section3"
 
 const IndexPage = ({data}) => (
   <Layout>
@@ -74,6 +75,8 @@ const IndexPage = ({data}) => (
     </main>
   <Section1></Section1>
   <Section2></Section2>
+  {/* Blog */}
+  <Section3></Section3>
     </div>
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>

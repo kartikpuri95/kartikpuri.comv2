@@ -84,6 +84,12 @@ module.exports = {
         develop: false,
         tailwind: true,
       },
+    },
+    {
+      resolve: "gatsby-source-hashnode-devblog",
+      options: {
+        username: "chopcoding",
+      },
     }
   ],
 }
